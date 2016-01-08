@@ -87,7 +87,7 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
 2.  Select **Web + Mobile** and click on **Logic App**. It displays the **Create logic app** form, where you can provide some basic settings to get started.
 
-	<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image9.png" width=600>
+	<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image9-1.png" width=600>
 
 3.  Click Triggers and actions, select Template or create it from scratch
 
