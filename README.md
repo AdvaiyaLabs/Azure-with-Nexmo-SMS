@@ -3,7 +3,7 @@
 
 ## Introduction
 
-**Azure with Nexmo SMS** will allow developers to provide SMS capability in their Azure Apps. While developing the Azure App, they can provide SMS capability in their Azure Apps through this Azure with Nexmo SMS  (Azure API app) and.
+**Azure with Nexmo SMS** will allow developers to provide SMS capability in their Azure Apps. While developing the Azure App, they can provide SMS capability in their Azure Apps through this Azure with Nexmo SMS  (Azure API app).
 
 Developers can consume Azure API App in Azure Logic Apps. Azure Logic Apps are a part of Azure App Service (a fully managed PaaS) for developer’s suite and allow developers to automate business process execution and workflow. With Azure with Nexmo SMS , users can connect to their Nexmo account in Azure Logic App to send SMSs. Logic apps can trigger, based on a variety of data sources and offer s to get and process data as a part of the flow.
 
