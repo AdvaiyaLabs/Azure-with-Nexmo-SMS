@@ -31,7 +31,7 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
 2.  Click on the **Deploy to Azure** button.
 
-    ![](./media/image4.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image4.png">
 
     You can create new resources or reference existing ones (resource group, gateway, service plan, etc.). Site Name and Gateway must be unique URL hostnames. The deployment process will deploy the following:
 
@@ -63,23 +63,23 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
     -   **Svc Plan Name**: Specify an existing Plan Name or write a new Plan Name to create a new plan.
 
-        ![](./media/image5.png)
+    <img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image5.png">
 
 6.  Click on **Next.**
 
 7.  On the next page, click on the **Deploy** button.
 
-    ![](./media/image6.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image6.png">
 
 8.  It will start the deployment process and display the progress step by step as shown below:
 
-    ![](./media/image7.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image7.png">
 
 9.  The API App is now successfully deployed to your Azure account, you can check it on Azure Portal.
 
 10. Open Azure Portal <https://portal.azure.com/>. Use the same Azure credentials used to publish the API App.
 
-    ![](./media/image8.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image8.png">
 
 11. Now here you can use published API app in any Logic App you are creating on your Azure account. This API App will be listed in the Resource group in which it is published.
 
@@ -89,21 +89,21 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
 2.  Select **Web + Mobile** and click on **Logic App**. It displays the **Create logic app** form, where you can provide some basic settings to get started.
 
-    ![](./media/image9.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image9.png">
 
 3.  Click Triggers and actions, select Template or create it from scratch
 
-> ![](./media/image10.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image10.png">
 
 1.  Create your logic app workflow by using API Apps displayed in the right panel.
 
-    ![](./media/image11.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image11.png">
 
 2.  Use Azure with Nexmo SMS in the workflow where you need to send some information in the SMS.
 
 3.  Select the action and specify Nexmo Key, Nexmo Secret, Recipient number (ex. 919999999999) and the Message Text. The text can be selected from previous ’s result. You can enable/disable the SMS sending, by default it is considered ‘enabled’.
 
-    ![](./media/image12.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image12.png">
 
 1.  Click the green tick to save the action.
 
@@ -121,4 +121,4 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
 -   Key and Secret will display in the top bar as shown in the below image:
 
-    ![](./media/image13.png)
+<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image13.png">
