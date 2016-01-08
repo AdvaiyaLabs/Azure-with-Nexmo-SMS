@@ -69,7 +69,7 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
 <img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image6.png" width=600>
 
-8.  It will start the deployment process and display the progress step by step as shown below:
+88.  It will start the deployment process and display the progress step by step as shown below:
 
 <img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image7.png" width=600>
 
