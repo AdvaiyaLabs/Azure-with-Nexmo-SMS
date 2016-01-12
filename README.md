@@ -33,7 +33,12 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
     [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
-    You can create new resources or reference existing ones (resource group, gateway, service plan, etc.). 
+
+3.  It will ask for your Azure credentials if not already logged in.
+
+4.  After the successful login, it will return to the deployment process.
+	
+	You can create new resources or reference existing ones (resource group, gateway, service plan, etc.). 
     Site Name and Gateway must be unique URL hostnames. 
     The deployment process will deploy the following:
     - Resource Group (if you don't reference the existing one)
@@ -42,10 +47,6 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
     - API App (AzurewithNexmoSMS)
     - API App Host 
 	(this is the site behind the API app which the github code deploys to)
-
-3.  It will ask for your Azure credentials if not already logged in.
-
-4.  After the successful login, it will return to the deployment process.
 
 5.  Fill all the required details in the form:
 
