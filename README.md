@@ -3,19 +3,19 @@
 
 ## Introduction
 
-**Azure with Nexmo SMS** will allow developers to provide SMS capability in their Azure Apps. While developing the Azure App, they can provide SMS capability in their Azure Apps through this Azure with Nexmo SMS  (Azure API app).
+**Azure with Nexmo SMS Connector** will allow developers to provide SMS capability in their Azure Apps. While developing the Azure App, they can provide SMS capability in their Azure Apps through this Azure with Nexmo SMS  (Azure API app).
 
 Developers can consume Azure API App in Azure Logic Apps. Azure Logic Apps are a part of Azure App Service (a fully managed PaaS) for developer’s suite and allow developers to automate business process execution and workflow. With Azure with Nexmo SMS , users can connect to their Nexmo account in Azure Logic App to send SMSs. Logic apps can trigger, based on a variety of data sources and offer s to get and process data as a part of the flow.
 
 ## Use Case
 
-Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to send SMS using Nexmo Messaging APIs.
+Build Nexmo SMS connector, which can be integrated or consumed with Azure Logic Apps to send SMS using Nexmo Messaging APIs.
 
 ## Prerequisite
 
 -   Nexmo subscription and, corresponding Nexmo API key and Secret key to consume Nexmo services. To access the Nexmo’s API keys, see appendix section.
 
--   Azure subscription to deploy this Azure with Nexmo SMS .
+-   Azure subscription to deploy this Azure with Nexmo SMS connector .
 
 ## Features
 
@@ -23,7 +23,7 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
 -   Enable and disable SMS functionality as per the need.
 
-## Steps to deploy Azure with Nexmo SMS 
+## Steps to deploy Azure with Nexmo SMS connector
 
 1.  Open the below GitHub repository link:
 
@@ -82,7 +82,7 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
 11. Now here you can use published API app in any Logic App you are creating on your Azure account. This API App will be listed in the Resource group in which it is published.
 
-## Steps to use the Azure with Nexmo SMS 
+## Steps to use the Azure with Nexmo SMS connector
 
 1.  To Create a Logic App on Azure dashboard, click on **+ New** in the left section of the screen.
 
@@ -94,21 +94,21 @@ Build Nexmo SMS , which can be integrated or consumed with Azure Logic Apps to s
 
 	<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image10.png" width=600>
 
-1.  Create your logic app workflow by using API Apps displayed in the right panel.
+4.  Create your logic app workflow by using API Apps displayed in the right panel.
 
 	<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image11.png" width=600>
 
-2.  Use Azure with Nexmo SMS in the workflow where you need to send some information in the SMS.
+5.  Use Azure with Nexmo SMS in the workflow where you need to send some information in the SMS.
 
-3.  Select the action and specify Nexmo Key, Nexmo Secret, Recipient number (ex. 919999999999) and the Message Text. The text can be selected from previous ’s result. You can enable/disable the SMS sending, by default it is considered ‘enabled’.
+6.  Select the action and specify Nexmo Key, Nexmo Secret, Recipient number (ex. 919999999999) and the Message Text. The text can be selected from previous ’s result. You can enable/disable the SMS sending, by default it is considered ‘enabled’.
 
 	<img src="https://github.com/AdvaiyaLabs/Azure-with-Nexmo-SMS/blob/master/docs/image12.png" width=600>
 
-1.  Click the green tick to save the action.
+7.  Click the green tick to save the action.
 
-2.  Click on **Save** button to save the Logic app.
+8.  Click on **Save** button to save the Logic app.
 
-3.  Now whenever the trigger will be fired, the workflow will be executed to perform the specified action. The specified user (Recipient Number) will get an SMS with the dynamic text message whenever the logic app is triggered.
+9.  Now whenever the trigger will be fired, the workflow will be executed to perform the specified action. The specified user (Recipient Number) will get an SMS with the dynamic text message whenever the logic app is triggered.
 
 # Appendix
 
